@@ -1,0 +1,17 @@
+# Abaikan folder data mentah & file privat
+data/raw/
+*.csv
+!data/processed/*.csv
+
+# Kunci rahasia & environment variables
+*.env
+.env
+garam.txt
+secrets.json
+
+# Checkpoints & cache
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.DS_Store
