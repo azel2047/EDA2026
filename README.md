@@ -22,3 +22,25 @@ Nama Anggota:
 
 5. **Kalimat sitasi:**
    Ramos, G. (2022). E-commerce Business Transaction: Sales Transaction v.4a.csv [Data set]. Kaggle. https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business
+
+
+## Struktur Repo
+
+```
+EDA2026/
+├── data/
+│   ├── raw/                  # CSV mentah (peserta_pelatihan_umkm_2025.csv)
+│   └── processed/            # CSV hasil pembersihan
+├── notebooks/
+│   ├── P02/                  # Notebook pertemuan 2
+│   ├── P03/                  # Notebook pertemuan 3
+│   ├── P04/                  # Notebook pertemuan 4
+│   └── 02_cleaning.ipynb     # Pipeline pembersihan tim (M2)
+├── reports/                  # Laporan resmi kelompok (data_quality_report.docx)
+├── README.md
+├── data_dictionary.md        # Kamus data
+├── cleaning_log.md           # Catatan riwayat pembersihan M2
+└── .gitignore
+```
+
+Konvensi nama notebook: `P0X_<Jenis>_<Nama_Anggota>.ipynb`.

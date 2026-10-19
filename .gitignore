@@ -1,7 +1,8 @@
 # Abaikan folder data mentah & file privat
-data/raw/
+data/raw/*
 *.csv
 !data/processed/*.csv
+!data/raw/peserta_pelatihan_umkm_2025.csv
 
 # Kunci rahasia & environment variables
 *.env
