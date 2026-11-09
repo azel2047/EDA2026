@@ -1,4 +1,4 @@
-# EDA2026
+# Ngoding Jago
 Nama Anggota:
 1. Ugroseno Dwi Prakastyo
 2. Riddho Addin
